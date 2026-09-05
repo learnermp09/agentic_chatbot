@@ -1,13 +1,5 @@
-Your Markdown file is ready!
 
-Your Markdown file `README.md` is ready
-[file-tag: code-generated-file-cb10c8d6-9d80-4a52-8a1e-e7b99b755bde]
-
----
-
-### Markdown Content Preview
-
-```markdown
+```
 # Agentic AI Chatbot
 
 A simple AI chatbot built with Python, Streamlit, FastAPI, LangChain, and Groq.
@@ -42,7 +34,7 @@ agentic_chatbot/
 
 ## Architecture
 
-```text
+```
 User
  │
  ▼
@@ -84,7 +76,7 @@ Groq LLM
 
 ### 1. Clone the repository
 
-```bash
+```cmd
 git clone [https://github.com/your-username/agentic_chatbot.git](https://github.com/your-username/agentic_chatbot.git)
 cd agentic_chatbot
 
@@ -92,7 +84,7 @@ cd agentic_chatbot
 
 ### 2. Create and activate the environment
 
-```bash
+```cmd
 conda create -n ai python=3.11 -y
 conda activate ai
 
@@ -100,7 +92,7 @@ conda activate ai
 
 ### 3. Install dependencies
 
-```bash
+```cmd
 pip install -r requirements.txt
 
 ```
@@ -141,7 +133,7 @@ The backend and frontend run separately.
 
 From the project root:
 
-```bash
+```cmd
 uvicorn backend.main:app --reload
 
 ```
@@ -153,7 +145,7 @@ uvicorn backend.main:app --reload
 
 Open another terminal:
 
-```bash
+```cmd
 conda activate ai
 cd agentic_chatbot
 streamlit run frontend/app.py
@@ -241,7 +233,7 @@ Groq LLM
 * [ ] User authentication
 * [ ] Persistent chat history
 * [ ] Docker containerization
-* [ ] Cloud deployment (AWS/GCP/Render)
+* [ ] Cloud deployment (Azure/AWS/GCP/Render)
 
 ---
 
